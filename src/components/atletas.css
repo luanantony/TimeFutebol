@@ -1,0 +1,114 @@
+/* Definição de variáveis */
+:root {
+  background-image: linear-gradient(to bottom, #62b362, #093f0c);
+  --text-color: #fff;
+  --highlight-color: #878ee4;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+  margin-bottom: 1rem;
+  }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #333;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+input[type="submit"],
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: var(--highlight-color);
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+button {
+  margin-left: 1rem;
+}
+
+/* Estilos da tabela */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+}
+
+.table th,
+.table td {
+  padding: 0.5rem;
+  border: 3px solid #333;
+  text-align: center;
+}
+
+.table th {
+  background-color: #353eb9;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.table td button,
+.table td1 button {
+  padding: 0.25rem 0.5rem;
+  background-color: #353eb9;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.table td button:hover,
+.table td1 button:hover {
+  background-color: var(--highlight-color);
+  color: var(--text-color);
+}
+
+/* Estilos do filtro */
+label[for="filtro"] {
+  margin-right: 0.5rem;
+}
+
+input[type="text"]#filtro {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #333;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}

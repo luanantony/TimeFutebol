@@ -1,0 +1,16 @@
+{
+  "atletas": [
+    {
+      "nome": "Dida",
+      "idade": "30",
+      "posicao": "Goleiro",
+      "id": 1
+    },
+    {
+      "nome": "Lucas",
+      "idade": "25",
+      "posicao": "Atacante",
+      "id": 2
+    }
+  ]
+}
